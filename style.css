@@ -436,7 +436,7 @@ form table th {
 }
 
 .les_buttons button {
-    background-color: #2de6ff;
+    background-color: #0c725be6;
     border: none;
     padding: 0.8rem 1rem;
     border-radius: 8px;
@@ -453,4 +453,8 @@ form table th {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     min-width: 300px;
     min-height: 400px;
+}
+
+a{
+    text-decoration: none;
 }

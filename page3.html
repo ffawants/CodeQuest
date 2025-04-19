@@ -2,14 +2,17 @@
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
         <link rel="stylesheet" href="style.css">
+        <script src="./js/ui.js" defer></script>
+        <script src="./js/lesson.js" defer></script>
       </head>
-      <body>
+      <body onload="getInfo()">
         <div class="container">
             <header class="web-header">
-                <button class="back">Back</button>
+                <button class="back" onclick="window.history.back();">Back</button>
                 <div class="text">
                 <h1>Web Development</h1>
                 </div>
+                <span id="user"></span>
             </header>
             <div class="main_body">
               <div class="lesson">
@@ -17,16 +20,47 @@
             
               <div class="les_container">
                 <div class="les_buttons">
-                  <button>Lesson 1</button>
-                  <button>Lesson 2</button>
-                  <button>Lesson 3</button>
-                  <button>Quiz!</button>
-                  <button>Lesson 4</button>
-                  <button>Lesson 5</button>
-                  <button>Final Review</button>
-
+                  <button onclick="openSection('l1');">Lesson 1</button>
+                      <section id="l1" class="lesson-section" hidden>
+                        <p>The question</p>
+                      </section>
+                  <button onclick="openSection('l2');">Lesson 2</button>
+                      <section id="l2" class="lesson-section" hidden>
+                       <!-- the lesson -->
+                      </section>
+                  <button onclick="openSection('l3');">Lesson 3</button>
+                      <section id="l3" class="lesson-section" hidden>
+                       <!-- the lesson -->
+                      </section>
+                  <button onclick="openSection('q1');">Quiz!</button>
+                      <section id="q1" class="lesson-section" hidden>
+                        <p>The question</p>
+                        <select>
+                          <option>A1</option>
+                          <option>A2</option>
+                          <option>A3</option>
+                          <option>A4</option>
+                        </select>
+                      </section>
+                  <button onclick="openSection('l4');">Lesson 4</button>
+                        <section id="l4" class="lesson-section" hidden>
+                          <!-- the lesson -->
+                        </section>
+                  <button onclick="openSection('l5');">Lesson 5</button>
+                        <section id="l5" class="lesson-section" hidden>
+                         <!-- the lesson -->
+                        </section>
+                  <button onclick="openSection('f1');">Final Review</button>
+                        <section id="f1" class="lesson-section" hidden>
+                          <p>The question</p>
+                          <select>
+                            <option>A1</option>
+                            <option>A2</option>
+                            <option>A3</option>
+                            <option>A4</option>
+                          </select>
+                        </section>
                 </div>
-                
               </div>
               </div>
             </div>

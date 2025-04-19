@@ -4,12 +4,15 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
+  <script src="./js/ui.js" defer></script>
+  <script src="./js/reg.js" defer></script>
 </head>
 
-<body>
+<body onload="getInfo()">
   <div class="container">
     <div class="header">
       <img src="logo.png" class="logo1" alt="Logo" />
+      <span id="user"></span>
       <div class="wrapper">
         <div class="menu">&#9776;</div>
         <div class="menu_content">
@@ -20,9 +23,9 @@
         </div>
       </div>
     </div>
-    <div class="welcome">
+    <div class="welcome" id="join">
       <h1>Welcome to CodeQuest!</h1>
-      <a href="#join" class="join_button">Join Now</a>
+      <a href="#join2" class="join_button">Join Now</a>
     </div>
     <div class="main_content">
       <h2>About us</h2>
@@ -34,26 +37,30 @@
     <div class="courses">
       <h2>Explore our courses</h2>
       <div class="course_cards">
-        <div class="cards">
+        <a href="page3.html">
+          <div class="cards">
           <div class="thumbnail"></div>
-          <p>Web Development</p>
-
-        </div>
+            <p>Web Development</p>
+          </div>
+        </a>
+        <a href="page4.html">
         <div class="cards">
           <div class="thumbnail"></div>
           <p>Intro to Programming</p>
-
         </div>
+      </a>
+        <a href="page5.html">
         <div class="cards">
           <div class="thumbnail"></div>
           <p>Intro to Computing</p>
-
         </div>
+      </a>
       </div>
     </div>
-    <div class="community" id="join">
+    <div class="community" id="join2">
       <h2>Join the Community!</h2>
-      <form class="form">
+      <span id="errReg"></span>
+      <form id="reg" class="form">
         <table class="table">
           <tr>
             <th><label for="fname"> First Name </label> </th>
@@ -67,12 +74,12 @@
             <th><label for="phone">Phone </label> </th>
             <th><label for="email">Email</label></th>
           </tr>
-          <td><input id="phone" type="tel" /></td>
-          <td> <input id="email" type="email" /></td>
+            <td><input id="phone" type="tel" /></td>
+            <td> <input id="email" type="email" /></td>
+          </tr>
         </table>
       </form>
-      <button class="submit_button" type="submit">Register</button>
-
+      <button class="submit_button" onclick="register();">Register</button>
     </div>
     <div class="footer">
       <div class="logo2">
