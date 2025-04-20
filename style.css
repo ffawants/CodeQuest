@@ -17,6 +17,17 @@ html {
     align-items: center;
 }
 
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 
 .logo1 {
 
@@ -159,6 +170,10 @@ html {
 
 }
 
+.course_cards a{
+    text-decoration: none;
+}
+
 .cards {
     background-color: #0c725be6;
     padding: 1rem;
@@ -166,9 +181,9 @@ html {
     width: 180px;
     box-shadow: 12px 10px 1px rgba(0, 0, 0, 0.326);
     color: #acb0e8;
-    ;
     font-size: 30px;
 }
+
 
 .thumbnail {
     height: 200px;
@@ -176,6 +191,8 @@ html {
     border-radius: 5px;
     margin-bottom: 0.5rem;
 }
+
+
 
 .community {
     background: linear-gradient(to bottom, #29b8a7, #29b873db);
@@ -382,16 +399,6 @@ form table th {
 }
 
 
-.web-header{
-    height: 100px;
-    background-color: #50508cae;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-
 .back {
     border-radius: 13px;
     padding: .4rem;
@@ -419,6 +426,7 @@ color: #7478ab;
 .text{
     color: aliceblue;
     font-size: 25px;
+    position: absolute;
 }
 
 .lesson {
@@ -478,7 +486,7 @@ font-size: 20px;
     min-height: 400px;
 }
 
-a{
+.a{
     text-decoration: none;
 }
 .les_description{
@@ -506,3 +514,50 @@ a{
     padding: 1.5rem;
 }
 
+#user{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.web-header {
+    height: 100px;
+    background-color: #50508cae;
+    width: 98.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: relative;
+  }
+  
+  .left_header,
+  .center_header,
+  .right_header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left_header {
+    justify-content: flex-start;
+  }
+  
+  .right_header {
+    justify-content: flex-end;
+  }
+  
+  .center_header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+  }
+  
+  
+  #user {
+    color: aliceblue;
+    font-size: 25px;
+    margin-right: 2rem;
+  }
+
+ 
