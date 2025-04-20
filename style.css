@@ -399,6 +399,16 @@ form table th {
 }
 
 
+.web-header{
+    height: 100px;
+    background-color: #50508cae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
 .back {
     border-radius: 13px;
     padding: .4rem;
