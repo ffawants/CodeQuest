@@ -355,7 +355,7 @@ form table th {
     width: 300px;
     height: 250px;
     border-radius: 0 10px 10px 0;
-    background: linear-gradient(to right, #1abc9c, #16a085);
+    background-color: #03e3d8;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-left: 2rem;
   }
@@ -387,6 +387,7 @@ form table th {
     background-color: #50508cae;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -398,10 +399,16 @@ form table th {
     font-size: larger;
     background-color:#cfd3f8 ;
     border: none;
-    color: #7478ab;
     cursor: pointer;
     margin-left: 1rem;
-    z-index: 2;
+    left: 1rem;
+    position: absolute;
+}
+
+.back a{
+text-decoration: none;
+color: #7478ab;
+
 }
 
 .back:hover{
@@ -410,39 +417,55 @@ form table th {
 }
 
 .text{
-    position:relative;
-    left: 300px;
     color: aliceblue;
+    font-size: 25px;
 }
 
 .lesson {
     color: #7478ab;
     margin-top: 2px;
-
+    justify-content: center;
+align-self: self-start;
+position: absolute;
+font-size: 20px;
 }
 
 .les_container{
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 10rem;
     padding: 2rem;
+    
 }
 
 .les_buttons {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+    margin-top: 6rem;
+
+}
+
+.les_buttons button:hover{
+    background-color: #04d3c9;
+
 }
 
 .les_buttons button {
     background-color: #0c725be6;
+    background-color: #03e3d8;
     border: none;
     padding: 0.8rem 1rem;
     border-radius: 8px;
     color: white;
     font-weight: bold;
     cursor: pointer;
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+
 }
 
 .lesson-box {
@@ -458,3 +481,28 @@ form table th {
 a{
     text-decoration: none;
 }
+.les_description{
+    height: 700px;
+    width: 600px;
+    flex-grow: 1;
+    background-color: #0c725be6;
+    padding: 1rem;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.les_description p{
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
