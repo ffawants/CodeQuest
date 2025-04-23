@@ -168,6 +168,8 @@ html {
 .main_content p {
     margin-bottom: 0;
     font-size: 25px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 
