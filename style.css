@@ -127,7 +127,7 @@ html {
     padding-bottom: 3rem;
     margin-top: 0px;
     background-color: #b7bdff4f;
-    color: white;
+    color: #50508cae;
     font-size: 30px;
     margin-bottom: 0px;
 }
@@ -609,4 +609,8 @@ font-size: 20px;
     margin-right: 2rem;
   }
 
+  .header_center h2{
+    color: aliceblue;
+    font-size: 45px;
+  }
  
