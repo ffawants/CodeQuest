@@ -399,7 +399,7 @@ form table th {
     width: 300px;
     height: 250px;
     border-radius: 0 10px 10px 0;
-    background: linear-gradient(to right, #1abc9c, #16a085);
+    background-color: #03e3d8;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-left: 2rem;
   }
@@ -463,8 +463,11 @@ color: #7478ab;
 .text{
     color: aliceblue;
     font-size: 25px;
+<<<<<<< Updated upstream
     font-size: 25px;
     position: absolute;
+=======
+>>>>>>> Stashed changes
 }
 
 .lesson {
@@ -473,23 +476,34 @@ color: #7478ab;
     justify-content: center;
 align-self: self-start;
 position: absolute;
+<<<<<<< Updated upstream
 font-size: 20px;    justify-content: center;
 align-self: self-start;
 position: absolute;
+=======
+>>>>>>> Stashed changes
 font-size: 20px;
 }
 
 .les_container{
     margin-top: 5rem;
+<<<<<<< Updated upstream
     margin-top: 5rem;
+=======
+>>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 10rem;
+<<<<<<< Updated upstream
     gap: 10rem;
     padding: 2rem;
     
     
+=======
+    padding: 2rem;
+    
+>>>>>>> Stashed changes
 }
 
 .les_buttons {
@@ -506,8 +520,11 @@ font-size: 20px;
 }
 
 .les_buttons button {
+<<<<<<< Updated upstream
     background-color: #0c725be6;
     background-color: #03e3d8;
+=======
+>>>>>>> Stashed changes
     background-color: #03e3d8;
     border: none;
     padding: 0.8rem 1rem;
@@ -519,10 +536,13 @@ font-size: 20px;
     width: 300px;
     font-size: 25px;
 
+<<<<<<< Updated upstream
     height: 50px;
     width: 300px;
     font-size: 25px;
 
+=======
+>>>>>>> Stashed changes
 }
 
 .lesson-box {
@@ -535,9 +555,12 @@ font-size: 20px;
     min-height: 400px;
 }
 
+<<<<<<< Updated upstream
 .a{
     text-decoration: none;
 }
+=======
+>>>>>>> Stashed changes
 .les_description{
     height: 700px;
     width: 600px;
@@ -563,6 +586,7 @@ font-size: 20px;
     padding: 1.5rem;
 }
 
+<<<<<<< Updated upstream
 #user{
     color: aliceblue;
     font-size: 25px;
@@ -615,3 +639,5 @@ font-size: 20px;
     
   }
  
+=======
+>>>>>>> Stashed changes
