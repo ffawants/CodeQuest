@@ -399,7 +399,7 @@ form table th {
     width: 300px;
     height: 250px;
     border-radius: 0 10px 10px 0;
-    background-color: #03e3d8;
+    background: linear-gradient(to right, #1abc9c, #16a085);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-left: 2rem;
   }
@@ -489,8 +489,6 @@ font-size: 20px;
     gap: 10rem;
     padding: 2rem;
     
-    
-    padding: 2rem;
     
 }
 
